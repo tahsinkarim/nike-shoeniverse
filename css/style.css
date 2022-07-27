@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --color-orange: #fa804c;
+  --color-blue: linear-gradient(#3d4ff3, #3543bc);
+  --color-header: #363958;
+  --color-text: #3e3e3e;
+  --color-bg: #fff9f4;
+  --color-light-gray: #f1f1f1;
+  --basic-transition: all 0.3s ease;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Bebas Neue', cursive; */
+}
+header {
+  background-color: var(--color-bg);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--color-header);
+}
+h1,
+h2 {
+  font-family: "Bebas Neue", cursive;
+}
+.color-text {
+  color: var(--color-text);
+}
+.button {
+  background-image: var(--color-blue);
+  color: white;
+  border: none;
+  padding: 16px 34px 16px 34px;
+  font-size: 16px;
+}
+.button:hover {
+  background-image: linear-gradient(#3543bc, #3d4ff3);
+}
+.nike-logo {
+  max-width: 200px;
+}
+.orange {
+  color: var(--color-orange);
+}
+@media (max-width: 769px) {
+  .w-50.flex-item {
+    width: 100% !important;
+  }
+}
+footer {
+  background-color: var(--color-header);
+  color: var(--color-light-gray);
+}

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shoeniverse</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/c0814a4cfc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="mb-5">
+      <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img class="img-fluid nike-logo" src="./icons/Logo.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-grow-0"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav fw-bold">
+              <a class="nav-link active mx-lg-4" aria-current="page" href="#"
+                >Home</a
+              >
+              <a class="nav-link mx-lg-4" href="#">Product</a>
+              <a class="nav-link mx-lg-4" href="#">About Us</a>
+              <a class="nav-link ms-lg-4 me-lg-5 pe-lg-5" href="#"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="penguin-slider">
+        <div class="container">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="true"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div
+                  class="d-md-flex gap-5 flex-row-reverse justify-content-between align-items-center"
+                >
+                  <div class="w-50 flex-item p-lg-5 ms-lg-5">
+                    <h1 class="display-3">
+                      <span class="orange">NIKE REACT</span> <br />
+                      <span>INFINITY RUN 2</span>
+                    </h1>
+                    <p class="w-md-75 w-lg-25" style="max-width: 350px">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                    <button class="btn button rounded-4">
+                      <i class="fa-solid fa-cart-shopping me-2"></i> Buy Now
+                    </button>
+                  </div>
+                  <div class="w-50 flex-item mb-5 car-img p-lg-5 me-lg-5">
+                    <img
+                      src="./images/banner-img-1.png"
+                      class="d-block img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  class="d-md-flex gap-5 flex-row-reverse justify-content-between align-items-center"
+                >
+                  <div class="w-50 flex-item p-lg-5 ms-lg-5">
+                    <h1 class="display-3">
+                      <span class="orange">NIKE REACT</span> <br />
+                      <span>INFINITY RUN 2</span>
+                    </h1>
+                    <p class="w-md-75 w-lg-25" style="max-width: 350px">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                    <button class="btn button rounded-4">
+                      <i class="fa-solid fa-cart-shopping me-2"></i> Buy Now
+                    </button>
+                  </div>
+                  <div class="w-50 flex-item mb-5 car-img p-lg-5 me-lg-5">
+                    <img
+                      src="./images/banner-img-2.png"
+                      class="d-block img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  class="d-md-flex gap-5 flex-row-reverse justify-content-between align-items-center"
+                >
+                  <div class="w-50 flex-item p-lg-5 ms-lg-5">
+                    <h1 class="display-3">
+                      <span class="orange">NIKE REACT</span> <br />
+                      <span>INFINITY RUN 2</span>
+                    </h1>
+                    <p class="w-md-75 w-lg-25" style="max-width: 350px">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                    <button class="btn button rounded-4">
+                      <i class="fa-solid fa-cart-shopping me-2"></i> Buy Now
+                    </button>
+                  </div>
+                  <div class="w-50 flex-item mb-5 car-img p-lg-5 me-lg-5">
+                    <img
+                      src="./images/banner-img-3.png"
+                      class="d-block img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="mb-5">
+      <!-- Casual Shoes -->
+      <section class="casual-shoes mb-5">
+        <div class="container">
+          <h2 class="mb-4">Casual SHOES</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card h-100 p-3 pb-1 border-0 shadow-lg rounded-4">
+                <div class="px-4 pt-3 bg-light rounded-4">
+                  <img
+                    src="./images/casual-shoe-2.png"
+                    class="card-img-top img-fluid"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Nike Purple</h5>
+                  <p class="card-text color-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="orange my-auto fw-bold fs-3">$234</p>
+                    <button class="btn button rounded-3 px-3 py-3">
+                      <i class="fa-solid fa-cart-shopping me-1"></i> BUY NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 p-3 pb-1 border-0 shadow-lg rounded-4">
+                <div class="px-4 pt-3 bg-light rounded-4">
+                  <img
+                    src="./images/casual-shoe-1.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Nike Purple</h5>
+                  <p class="card-text color-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="orange my-auto fw-bold fs-3">$234</p>
+                    <button class="btn button rounded-3 px-3 py-3">
+                      <i class="fa-solid fa-cart-shopping me-1"></i> BUY NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 p-3 pb-1 border-0 shadow-lg rounded-4">
+                <div class="px-3 pt-4 bg-light rounded-4">
+                  <img
+                    src="./images/casual-shoe-3.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Nike Neon</h5>
+                  <p class="card-text color-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="orange my-auto fw-bold fs-3">$234</p>
+                    <button class="btn button rounded-3 px-3 py-3">
+                      <i class="fa-solid fa-cart-shopping me-1"></i> BUY NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Formal Shoe -->
+      <section class="casual-shoes mb-5">
+        <div class="container">
+          <h2 class="mb-4">FORMAL SHOES</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card h-100 p-3 pb-1 border-0 shadow-lg rounded-4">
+                <div class="bg-light rounded-4">
+                  <img
+                    src="./images/formal-shoe-2.png"
+                    class="card-img-top img-fluid"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Nike Purple</h5>
+                  <p class="card-text color-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="orange my-auto fw-bold fs-3">$234</p>
+                    <button class="btn button rounded-3 px-3 py-3">
+                      <i class="fa-solid fa-cart-shopping me-1"></i> BUY NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 p-3 pb-1 border-0 shadow-lg rounded-4">
+                <div class="bg-light rounded-4">
+                  <img
+                    src="./images/formal-shoe-1.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Nike Purple</h5>
+                  <p class="card-text color-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="orange my-auto fw-bold fs-3">$234</p>
+                    <button class="btn button rounded-3 px-3 py-3">
+                      <i class="fa-solid fa-cart-shopping me-1"></i> BUY NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 p-3 pb-1 border-0 shadow-lg rounded-4">
+                <div class="bg-light rounded-4">
+                  <img
+                    src="./images/formal-shoe-3.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Nike Neon</h5>
+                  <p class="card-text color-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="orange my-auto fw-bold fs-3">$234</p>
+                    <button class="btn button rounded-3 px-3 py-3">
+                      <i class="fa-solid fa-cart-shopping me-1"></i> BUY NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Services -->
+      <section class="our-services">
+        <div class="container">
+          <div class="d-md-flex flex-row-reverse align-items-center">
+            <div class="flex-item p-4 p-lg-5 m-xl-4">
+              <img class="img-fluid" src="./icons/man-shopping.png" alt="Man Shopping">
+            </div>
+            <div class="row row-cols-1 g-4 flex-item">
+              <div class="col">
+                <div class="card h-100 d-flex text-center text-md-start md: flex-md-row align-items-center py-3 px-4 rounded-4 border-0 shadow-sm gap-3">
+                  <img style="width: 78px;" src="./icons/icon-1.png" alt="...">
+                  <div class="">
+                    <h5 class="card-title fw-bold">Find the Perfect Fit </h5>
+                    <p class="card-text">Everybody is different, which is why we
+                      offer styles for every body.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 d-flex text-center text-md-start md: flex-md-row align-items-center py-3 px-4 rounded-4 border-0 shadow-sm gap-3">
+                  <img style="width: 78px;" src="./icons/icon-2.png" alt="...">
+                  <div class="">
+                    <h5 class="card-title fw-bold">Free Exchanges</h5>
+                    <p class="card-text">One of the many reasons you can shop
+                      with peace of mind.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 d-flex text-center text-md-start md: flex-md-row align-items-center py-3 px-4 rounded-4 border-0 shadow-sm gap-3">
+                  <img style="width: 78px;" src="./icons/icon-3.png" alt="...">
+                  <div class="">
+                    <h5 class="card-title fw-bold">Contact Our Seller</h5>
+                    <p class="card-text">They are here to help you. That's quite 
+                      literally what we pay them for.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="pb-4 pt-5">
+      <p class="text-center">© Copyright 2022 Penguin Fashion</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
